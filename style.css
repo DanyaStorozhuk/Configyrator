@@ -1,0 +1,270 @@
+body {  font-family: Arial, Verdana; /* Сімейство шрифтів */
+    font-size: 11pt; /* Розмір основного шрифту у пунктах  */
+    background-color:rgb(255, 255, 255); /* Колір фону веб-сторінки */
+    color: rgb(0, 0, 0) /* Колір основного тексту */ 
+  }
+  .image-radius {
+    border-radius: 15px; /* Можна змінити значення для більшого або меншого заокруглення */
+  }
+
+  button {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  p {
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    line-height: 1;
+  
+  }
+  h1{
+    font-weight: 600;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+  }
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #e80d0d}
+  
+  .button:active {
+    background-color: #eb0909;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .button1 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0b16f0;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button1:hover {background-color: #1e00ff}
+  
+  .button1:active {
+    background-color: #4400ff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .button2 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #103b12;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button2:hover {background-color: #103b12}
+  
+  .button2:active {
+    background-color: #103b12;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .button3 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff009d;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button3:hover {background-color: #ff009d}
+  
+  .button3:active {
+    background-color: #ff009d;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .button4 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #626262;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button4:hover {background-color: #626262}
+  
+  .button4:active {
+    background-color: #626262;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .button5 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff8800;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button5:hover {background-color: #ff8800}
+  
+  .button5:active {
+    background-color: #ff8800;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .button6 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button6:hover {background-color: #000000}
+  
+  .button6:active {
+    background-color: #000000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .button7 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ad0099;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button7:hover {background-color: #ad0099}
+  
+  .button7:active {
+    background-color: #ad0099;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .button8 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button8:hover {background-color: #ffffff}
+  
+  .button8:active {
+    background-color: #ffffff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  button {
+    display: inline-block;
+    width: 150px; /* Початковий розмір кнопки */
+    height: 50px;
+    background-color: #4CAF50; /* Зелений фон */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+
+
+  .button11 {
+    background: url('studio_46U.jpg') no-repeat center center;
+    background-size: cover; /* Робить фон зображення кнопки пропорційним */
+    color: transparent; /* Робить текст невидимим */
+    text-shadow: none; /* Вимикає будь-який тіньовий текст */
+    width: 100px;
+    height: 100px; /* Розмір кнопки як картинки */
+  }
+
+  .button11:active {
+    background-color: #ffffff;
+    box-shadow: 0 10px #666;
+    transform: translateY(4px);
+  }
+  
+  
+  .button12 {
+      background: url('studio_56D.jpg') no-repeat center center;
+      background-size: cover;
+      color: transparent;
+      width: 100px;
+      height: 100px;
+  }
+
+  .button12:active {
+    background-color: #ffffff;
+    box-shadow: 0 10px #666;
+    transform: translateY(4px);
+  }
+      

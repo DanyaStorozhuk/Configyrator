@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+
+<body style = "font-family: 'Brush Script MT', cursive;">
+    <div style = "text-align: center;">
+        <h1>Конфігуратор</h1>
+        <p>Porsche 911</p>
+        <br>
+        <img id="carImage" src = "iris.webp" alt="" width="350" class="image-radius"/> 
+        <br>
+        <h2>Виберіть колір вашого автомобіля</h2>
+        <br>
+        <button class="button" data-image="iris (2).webp">Red</button> 
+        <button class="button1" data-image="iris (1).webp">Blue</button> 
+        <button class="button2" data-image="iris (3).webp">Green</button>
+        <br> 
+        <br>
+        <button class="button3" data-image="iris (7).webp">Pink</button> 
+        <button class="button4" data-image="iris (5).webp">Gray</button>
+        <button class="button5" data-image="iris (4).webp">Orange</button>
+        <br> 
+        <br>
+        <button class="button6" data-image="iris (8).webp">Black</button> 
+        <button class="button7" data-image="iris (6).webp">Violet</button>
+        <button class="button8" data-image="iris.webp">White</button>
+        <script>
+
+            // список кнопок 
+            const buttons = document.querySelectorAll("button");
+            
+
+            const carImage = document.getElementById("carImage");
+            
+
+            buttons.forEach(button => {
+                button.addEventListener("click", function() {
+                    
+                    const newImage = this.getAttribute("data-image");
+                    
+  
+                    console.log("Натиснута кнопка:", this.innerText);
+                    console.log("Зображення для завантаження:", newImage);
+    
+
+                    carImage.src = newImage;
+    
+                    console.log("Нове зображення:", carImage.src);
+                });
+            });
+        </script>
+        <h1>Виберіть ваші дискі</h1>
+        <button class="button11" data-image="studio_46U.jpg"></button>
+        <button class="button12" data-image="studio_56D.jpg"></button>
+    </div>
+</body>
+</html>
